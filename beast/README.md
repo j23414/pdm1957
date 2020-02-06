@@ -10,6 +10,8 @@ Any kind of Bayesean analysis appreciated.
   | # Following beast analysis provided by Michael Z.
   |_pop_size.xml             # feed this to beast, I think this is finding effective population size?
   |_state_transitions.xml    # also feed this to beast, I think this is regional state transitions?
+  |
+  |_pop_size_output/         # Contains output of pop_size.xml BEAST run
 
 ```
 
