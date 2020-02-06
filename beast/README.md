@@ -7,6 +7,7 @@ Any kind of Bayesean analysis appreciated.
   |_HH_strictsubset.fna      # Had to subset down to only H2, because not enough data to fill in tree 
   |_strict.tre               # Tree
   |
+  | # Following beast analysis provided by Michael Z.
   |_pop_size.xml             # feed this to beast, I think this is finding effective population size?
   |_state_transitions.xml    # also feed this to beast, I think this is regional state transitions?
 
