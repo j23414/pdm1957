@@ -32,7 +32,9 @@ beast pop_size.xml
 
 * Suchard MA, Lemey P, Baele G, Ayres DL, Drummond AJ, Rambaut A. [Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10.](https://pubmed.ncbi.nlm.nih.gov/29942656) Virus evolution. 2018 Jan;4(1):vey016.
 
+**BEAGLE likelihood calculation**
 
+* Ayres DL, Darling A, Zwickl DJ, Beerli P, Holder MT, Lewis PO, Huelsenbeck JP, Ronquist F, Swofford DL, Cummings MP, Rambaut A. [BEAGLE: an application programming interface and high-performance computing library for statistical phylogenetics.](https://pubmed.ncbi.nlm.nih.gov/21963610) Systematic biology. 2012 Jan 1;61(1):170-3.
 
 **Uncorrelated relaxed clock**
 
@@ -45,6 +47,10 @@ beast pop_size.xml
 **Discrete gamma-distributed rate heterogeneity model**
 
 * Yang Z. [Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: approximate methods.](https://pubmed.ncbi.nlm.nih.gov/7932792) Journal of Molecular evolution. 1994 Sep 1;39(3):306-14.
+
+**Complex-diagonalizable, irreversible substitution model**
+
+* Edwards CJ, Suchard MA, Lemey P, Welch JJ, Barnes I, Fulton TL, Barnett R, O'Connell TC, Coxon P, Monaghan N, Valdiosera CE. [Ancient hybridization and an Irish origin for the modern polar bear matriline.](https://pubmed.ncbi.nlm.nih.gov/21737280) Current Biology. 2011 Aug 9;21(15):1251-8.
 
 **Skyride Coalescent, tree density model**
 
