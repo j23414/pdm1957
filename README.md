@@ -8,7 +8,7 @@ Focusing on the pandemic of 1957 and not the pandemic of 1968, genomic informati
 
 # References
 
-The following refernces were pulled from the NCBI Genbank Files for the 148 WGS strains and listed chronologically by decade.
+The following references were pulled from the NCBI Genbank Files for the 148 WGS strains and listed chronologically by decade.
 
 **1970s**
 
