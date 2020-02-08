@@ -1,19 +1,19 @@
 
 Operator analysis
 Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
-gtr.rates                                         0.321   150473     295159   1.96     0.2407      
-frequencies                                       0.015   150454     351940   2.34     0.2348      
-scale(alpha)                                      0.529   149983     346288   2.31     0.2357      
-scale(ucld.mean)                                  0.867   451259     5846210  12.96    0.2327      
-scale(ucld.stdev)                                 0.745   451301     1045173  2.32     0.2342      
-up:nodeHeights(treeModel) down:ucld.mean          0.986   450840     717219   1.59     0.2323      
-swapOperator(branchRates.categories)                      1502836    1277550  0.85     0.2034      
-uniformInteger(branchRates.categories)                    1505448    943754   0.63     0.3244      
-subtreeSlide(treeModel)                           1.712   4511023    2233916  0.5      0.2353      
-Narrow Exchange(treeModel)                                4513130    1851675  0.41     0.1912      
-Wide Exchange(treeModel)                                  450239     122443   0.27     0.0082      
-wilsonBalding(treeModel)                                  450843     2281579  5.06     0.0164      
-scale(treeModel.rootHeight)                       0.147   451246     2168203  4.8      0.2397      
-uniform(nodeHeights(treeModel))                           4510642    9225780  2.05     0.3379      
-gmrfBlockUpdateOperator                           14.026  300283     87520    0.29     0.2355      
+gtr.rates                                         0.397   750638     696831   0.93     0.2409      
+frequencies                                       0.012   752721     2656776  3.53     0.2349      
+scale(alpha)                                      0.499   753332     819024   1.09     0.2371      
+scale(ucld.mean)                                  0.874   2256489    4554453  2.02     0.2329      
+scale(ucld.stdev)                                 0.767   2258371    7757269  3.43     0.2344      
+up:nodeHeights(treeModel) down:ucld.mean          0.992   2256893    10985383 4.87     0.2318      
+swapOperator(branchRates.categories)                      7517208    4980270  0.66     0.2034      
+uniformInteger(branchRates.categories)                    7515083    2779359  0.37     0.3265      
+subtreeSlide(treeModel)                           1.579   22566107   11456630 0.51     0.2362      
+Narrow Exchange(treeModel)                                22557532   7339180  0.33     0.194       
+Wide Exchange(treeModel)                                  2252999    515528   0.23     0.0087      
+wilsonBalding(treeModel)                                  2255439    1187066  0.53     0.0174      
+scale(treeModel.rootHeight)                       0.127   2255897    421891   0.19     0.24        
+uniform(nodeHeights(treeModel))                           22548356   16398702 0.73     0.3386      
+gmrfBlockUpdateOperator                           22.061  1502935    269890   0.18     0.2377      
 
