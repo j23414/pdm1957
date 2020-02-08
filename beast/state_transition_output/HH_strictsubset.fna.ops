@@ -1,0 +1,27 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+gtr.rates                                         0.3     540854     372376   0.69     0.2405      
+frequencies                                       0.02    541024     442710   0.82     0.2345      
+scale(alpha)                                      0.433   541288     432809   0.8      0.2372      
+scale(default.ucld.mean)                          0.869   1620631    1308179  0.81     0.2326      
+scale(default.ucld.stdev)                         0.681   1622786    1307462  0.81     0.2341      
+up:nodeHeights(treeModel) down:default.ucld.mean  0.975   1621440    953663   0.59     0.232       
+swapOperator(default.branchRates.categories)              5401724    1578419  0.29     0.2093      
+uniformInteger(default.branchRates.categories)            5404696    1276206  0.24     0.3173      
+scale(location.ucld.mean)                         0.367   1620677    421738   0.26     0.2379      
+scale(location.ucld.stdev)                        0.132   1621738    423474   0.26     0.2396      
+up:nodeHeights(treeModel) down:location.ucld.mean 0.947   1620216    955421   0.59     0.2319      
+swapOperator(location.branchRates.categories)             5405933    565310   0.1      0.824       
+uniformInteger(location.branchRates.categories)           5403603    32856956 6.08     0.8831      
+subtreeSlide(treeModel)                           3.087   16216021   3324174  0.2      0.2386      
+Narrow Exchange(treeModel)                                16218893   41952045 2.59     0.1838      
+Wide Exchange(treeModel)                                  1623976    179101   0.11     0.0066      
+wilsonBalding(treeModel)                                  1621394    437798   0.27     0.0131      
+scale(treeModel.rootHeight)                       0.151   1618989    309986   0.19     0.2399      
+uniform(nodeHeights(treeModel))                           16217399   4041564  0.25     0.3321      
+gmrfBlockUpdateOperator                           10.168  1080266    177083   0.16     0.2373      
+scale(location.rates)                             0.941   8107523    1702234  0.21     0.2292      
+bitFlip(location.indicators)                              3788039    751739   0.2      0.081       
+location.root.frequencies                         0.313   540890     35130    0.06     0.2327      
+
