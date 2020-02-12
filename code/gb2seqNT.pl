@@ -50,6 +50,8 @@ while(<$fh>){
     }
     if($seq>0){
 	$fasta=$fasta.$_;
+    }elsif(/ACCESSION\s+(\S+)/){
+	$gb=$1;
     }elsif(/LOCUS\s+(\S+)/){
 	$gb=$1;
     }elsif(/^ORIGIN/){
