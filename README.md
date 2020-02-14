@@ -2,6 +2,10 @@
 
 This is a re-evaluation of the Pandemic of 1957 and also a test case for reassortment detection methods.
 
+<p align="center">
+  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/HH.png" height=600>
+</p>
+
 # Data and Methods
 
 Focusing on the pandemic of 1957 and not the pandemic of 1968, genomic information was fetched from IVR for influenza A isolates collected prior to 1966. Fetched sequences were pared down to strains with all 8 gene segments sequenced resulting in a final dataset of 148 strains for gene reassortment analysis.
