@@ -2,21 +2,16 @@
 
 This is a re-evaluation of the Pandemic of 1957 and also a test case for reassortment detection methods.
 
-<p align="center">
-  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/HH.png" height=400>
-  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/NN.png" height=400>
-</p>
+| HA | NA |
+|:-:|:-:|
+| ![](imgs/HH.png)|![](imgs/NN.png)|
 
-<p align="center">
-  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/PB2.png" height=250>
-  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/PB1.png" height=250>
-  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/PA.png" height=250>
-</p>
-<p align="center">
-  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/NP.png" height=250>
-  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/M.png" height=250>
-  <img src="https://github.com/j23414/pdm1957/blob/master/imgs/NS.png" height=250>
-</p>
+| PB2 | PB1 | PA |
+|:-:|:-:|:-:|
+| ![](imgs/PB2.png)|![](imgs/PB1.png)|![](imgs/PA.png)|
+| <b>NP</b> |<b>M</b> | <b>NS</b> |
+| ![](imgs/NP.png)|![](imgs/M.png)|![](imgs/NS.png)|
+
 
 # Data and Methods
 
