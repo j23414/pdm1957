@@ -1,0 +1,26 @@
+segments = 'HH NN PB2 PB1 PA NP M NS'
+
+rule all:
+  input: 
+    expand("results/{segment}.tre", segment = segments.split(' '))
+
+rule mafft:
+  input:
+    sequences = "../data/{seg}_annot.fna"
+  output: 
+    aligned = "results/{seg}_aln.fna"
+  shell:
+    """
+    [[ -d results ]] || mkdir results
+    mafft --auto {input.sequences} > {output.aligned}
+    """
+
+rule fasttree:
+  input:
+    aligned = "results/{seg}_aln.fna"
+  output:
+    tree = "results/{seg}.tre"
+  shell:
+    """
+    fasttree -nt {input.aligned} > {output.tree}
+    """
