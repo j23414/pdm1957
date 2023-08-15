@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region DQ208311.2 1 2151
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=88776
+DQ208311.2	Genbank	region	1	2151	.	+	.	ID=DQ208311.2:1..2151;Dbxref=taxon:88776;Name=3;country=USA;gbkey=Src;mol_type=mRNA;segment=3;serotype=H1N1;strain=A/Brevig Mission/1/1918
+DQ208311.2	Genbank	gene	1	2151	.	+	.	ID=gene-PA;Name=PA;gbkey=Gene;gene=PA
+DQ208311.2	Genbank	CDS	1	2151	.	+	0	ID=cds-ABA55040.2;Parent=gene-PA;Dbxref=NCBI_GP:ABA55040.2;Name=ABA55040.2;gbkey=CDS;gene=PA;product=polymerase PA;protein_id=ABA55040.2
+

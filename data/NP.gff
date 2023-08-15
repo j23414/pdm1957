@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AY744935.1 1 1497
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=88776
+AY744935.1	Genbank	region	1	1497	.	+	.	ID=AY744935.1:1..1497;Dbxref=taxon:88776;country=USA;gbkey=Src;mol_type=mRNA;serotype=H1N1;strain=A/Brevig Mission/1/1918
+AY744935.1	Genbank	gene	1	1497	.	+	.	ID=gene-np;Name=np;gbkey=Gene;gene=np
+AY744935.1	Genbank	CDS	1	1497	.	+	0	ID=cds-AAV48837.1;Parent=gene-np;Dbxref=NCBI_GP:AAV48837.1;Name=AAV48837.1;gbkey=CDS;gene=np;product=nucleoprotein;protein_id=AAV48837.1
+

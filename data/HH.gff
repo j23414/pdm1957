@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AF116575.1 1 1220
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=88776
+AF116575.1	Genbank	region	1	1220	.	+	.	ID=AF116575.1:1..1220;Dbxref=taxon:88776;gbkey=Src;mol_type=mRNA;old-name=influenza A virus (A/Brevig_Mission/1/18(H1N1));strain=A/Brevig_Mission/1/18(H1N1)
+AF116575.1	Genbank	gene	1	52	.	+	.	ID=gene-HA;Name=HA;end_range=1220,.;gbkey=Gene;gene=HA;partial=true
+AF116575.1	Genbank	gene	52	1029	.	+	.	ID=id-HA;Note=encodes HA1 domain;gbkey=misc_feature;gene=HA1;Name=HA1
+AF116575.1	Genbank	gene	1030	1220	.	+	.	ID=id-HA-2;Note=encodes HA2 domain;end_range=1220,.;gbkey=misc_feature;gene=HA;partial=true;gene=HA2;Name=HA2
+

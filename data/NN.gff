@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AF250356.2 1 1410
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=88776
+AF250356.2	Genbank	region	1	1410	.	+	.	ID=AF250356.2:1..1410;Dbxref=taxon:88776;gbkey=Src;mol_type=mRNA;note=sample obtained by Johan V. Hultin;old-name=influenza A virus (A/Brevig_Mission/1/18(H1N1));strain=A/Brevig_Mission/1/18 (H1N1)
+AF250356.2	Genbank	gene	1	1410	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA
+AF250356.2	Genbank	CDS	1	1410	.	+	0	ID=cds-AAF77036.1;Parent=gene-NA;Dbxref=NCBI_GP:AAF77036.1;Name=AAF77036.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=AAF77036.1
+

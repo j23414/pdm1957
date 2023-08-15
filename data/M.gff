@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AY130766.1 1 982
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=88776
+AY130766.1	Genbank	region	1	982	.	+	.	ID=AY130766.1:1..982;Dbxref=taxon:88776;gbkey=Src;mol_type=genomic RNA;note=cRNA sequence;old-name=Influenza A virus (A/Brevig_Mission/1/1918(H1N1));serotype=H1N1;strain=A/Brevig_Mission/1/1918
+AY130766.1	Genbank	CDS	1	27	.	+	0	ID=cds-AAN06598.1;Dbxref=NCBI_GP:AAN06598.1;Name=AAN06598.1;gbkey=CDS;product=matrix protein 2;protein_id=AAN06598.1
+AY130766.1	Genbank	gene	716	982	.	+	0	ID=cds-AAN06598.1;Dbxref=NCBI_GP:AAN06598.1;Name=AAN06598.1;gbkey=CDS;product=matrix protein 2;protein_id=AAN06598.1;Name=M2;gene=M2
+AY130766.1	Genbank	gene	1	759	.	+	0	ID=cds-AAN06597.1;Dbxref=NCBI_GP:AAN06597.1;Name=AAN06597.1;gbkey=CDS;product=matrix protein 1;protein_id=AAN06597.1;Name=M1;gene=M1
+
