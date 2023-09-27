@@ -17,6 +17,21 @@ This is a re-evaluation of the Pandemic of 1957 and also a test case for reassor
 
 Focusing on the pandemic of 1957 and not the pandemic of 1968, genomic information was fetched from IVR for influenza A isolates collected prior to 1966. Fetched sequences were pared down to strains with all 8 gene segments sequenced resulting in a final dataset of 148 strains for gene reassortment analysis.
 
+# Nextstrain Builds
+
+Nextstrain allows the ability to display tanglegrams between two trees. The same data above was used to create gene segment trees and can be compared in the below table.
+
+|| HA | NA | PB2 | PB1 | PA | NP | M | NS |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|HA | |[equal](https://next.nextstrain.org/staging/jen/HH:staging/jen/NN?c=host) | [reassort](https://next.nextstrain.org/staging/jen/HH:staging/jen/PB2?c=host) | [equal](https://next.nextstrain.org/staging/jen/HH:staging/jen/PB1?c=host) | [reassort](https://next.nextstrain.org/staging/jen/HH:staging/jen/PA?c=host) | [reassort](https://next.nextstrain.org/staging/jen/HH:staging/jen/NP?c=host) | [reassort](https://next.nextstrain.org/staging/jen/HH:staging/jen/M?c=host) | [reassort](https://next.nextstrain.org/staging/jen/HH:staging/jen/NS?c=host) |
+|NA | | | [reassort](https://next.nextstrain.org/staging/jen/NN:staging/jen/PB2?c=host) | [equal](https://next.nextstrain.org/staging/jen/NN:staging/jen/PB1?c=host) | [reassort](https://next.nextstrain.org/staging/jen/NN:staging/jen/PA?c=host) | [reassort](https://next.nextstrain.org/staging/jen/NN:staging/jen/NP?c=host) | [reassort](https://next.nextstrain.org/staging/jen/NN:staging/jen/M?c=host) | [reassort](https://next.nextstrain.org/staging/jen/NN:staging/jen/NS?c=host) |
+|PB2 | | | | [reassort](https://next.nextstrain.org/staging/jen/PB2:staging/jen/PB1?c=host) | [equal](https://next.nextstrain.org/staging/jen/PB2:staging/jen/PA?c=host) | [equal](https://next.nextstrain.org/staging/jen/PB2:staging/jen/NP?c=host) | [equal](https://next.nextstrain.org/staging/jen/PB2:staging/jen/M?c=host) | [equal](https://next.nextstrain.org/staging/jen/PB2:staging/jen/NS?c=host) |
+|PB1 | | | | | [reassort](https://next.nextstrain.org/staging/jen/PB1:staging/jen/PA?c=host) | [reassort](https://next.nextstrain.org/staging/jen/PB1:staging/jen/NP?c=host) | [reassort](https://next.nextstrain.org/staging/jen/PB1:staging/jen/M?c=host) | [reassort](https://next.nextstrain.org/staging/jen/PB1:staging/jen/NS?c=host) |
+|PA | | | | | | [equal](https://next.nextstrain.org/staging/jen/PA:staging/jen/NP?c=host) | [equal](https://next.nextstrain.org/staging/jen/PA:staging/jen/M?c=host) | [equal](https://next.nextstrain.org/staging/jen/PA:staging/jen/NS?c=host) |
+|NP | | | | | | | [equal](https://next.nextstrain.org/staging/jen/NP:staging/jen/M?c=host) | [equal](https://next.nextstrain.org/staging/jen/NP:staging/jen/NS?c=host) |
+|M | | | | | | | | [equal](https://next.nextstrain.org/staging/jen/M:staging/jen/NS?c=host) |
+
+
 # References
 
 The following references were pulled from the NCBI Genbank Files for the 148 WGS strains and listed chronologically by decade.
